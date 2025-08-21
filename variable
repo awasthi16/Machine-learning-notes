@@ -1,0 +1,70 @@
+1. Types of Variables in ML
+(a) Based on Role
+
+Independent Variables (Features / Predictors / Input variables)
+
+These are the inputs used by the ML model.
+
+Example: In predicting house prices, size, location, and number of rooms are independent variables.
+
+Dependent Variable (Target / Output variable / Response variable)
+
+This is the outcome we want to predict.
+
+Example: House Price in the above case.
+
+(b) Based on Data Type
+
+Numerical Variables
+
+Continuous: Can take any value in a range.
+Example: Temperature = 22.5°C
+
+Discrete: Takes fixed values, usually integers.
+Example: Number of children = 3
+
+Categorical Variables
+
+Represent categories or labels.
+
+Nominal: No order between categories. Example: Red, Blue, Green
+
+Ordinal: Categories have order. Example: Small, Medium, Large
+
+Binary Variables
+
+Only two possible values.
+
+Example: Yes/No, 0/1
+
+Text Variables
+
+Words, sentences, or documents used in NLP (Natural Language Processing).
+
+Example: Customer reviews
+
+Time Variables
+
+Data that changes over time.
+
+Example: Stock price on different dates
+
+2. Why Variables Are Important in ML
+
+Variables determine the patterns and relationships models learn.
+
+Choosing the right variables (feature selection) improves model performance.
+
+Wrong or irrelevant variables may lead to overfitting or underfitting.
+
+3. Example
+
+Suppose we are predicting student exam scores:
+
+Hours_Studied	Sleep_Hours	Attendance	Score
+5	7	90%	85
+2	5	70%	50
+
+Independent Variables: Hours_Studied, Sleep_Hours, Attendance
+
+Dependent Variable: Score
