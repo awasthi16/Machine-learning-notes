@@ -1,0 +1,39 @@
+Load the dataset into a Pandas DataFrame. How many rows and columns does it have?
+
+Display the first 5 rows of the dataset.
+
+What are the column names in the dataset?
+
+Find the average (mean) of Study_Hours.
+
+Find the maximum and minimum value of Exam_Score.
+
+Which student has the highest Attendance (%)?
+
+What is the total sum of Attendance (%) for all students?
+
+Count how many students studied more than 5 hours.
+
+Find the median Sleep_Hours.
+
+What is the standard deviation of Exam_Score?
+
+Add 5 bonus points to each student’s Exam_Score. Show the updated DataFrame.
+
+Create a new column Score_per_Hour = Exam_Score / Study_Hours.
+
+Find the student with the lowest Score_per_Hour.
+
+Sort the DataFrame by Exam_Score in descending order.
+
+Group students by Sleep_Hours and calculate the average Exam_Score for each group.
+
+How many students have Attendance greater than 80%?
+
+Find the correlation between Study_Hours and Exam_Score.
+
+Plot a histogram of Exam_Score.
+
+Create a scatter plot of Study_Hours vs Exam_Score.
+
+Save the updated DataFrame (with new columns) as a new CSV file.
